@@ -1,7 +1,12 @@
 import React from "react";
+import Countries from "./Components/Countries";
 
 function App() {
-  return <div>Hello</div>;
+  return (
+    <>
+      <Countries />
+    </>
+  );
 }
 
 export default App;
