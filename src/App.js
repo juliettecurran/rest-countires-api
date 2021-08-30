@@ -1,11 +1,13 @@
 import React from "react";
-import Countries from "./Components/Countries";
 import Header from "./Components/Header";
+import Filter from "./Components/Filter";
+import Countries from "./Components/Countries";
 
 function App() {
   return (
     <>
       <Header />
+      <Filter />
       <Countries />
     </>
   );
