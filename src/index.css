@@ -17,6 +17,14 @@ body {
   color: #fff;
 }
 
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Grid */
 .grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -29,8 +37,8 @@ body {
 
 .grid .details {
   background-color: #2b3743;
-  padding: 20px;
-  margin-top: -10px;
+  padding: 40px 20px;
+  margin-top: -20px;
   border-radius: 0 0 5px 5px;
 }
 
@@ -59,7 +67,11 @@ body {
 }
 
 @media (min-width: 992px) {
+  body {
+    padding: 60px 100px;
+  }
   .grid {
     grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
   }
 }
