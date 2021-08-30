@@ -13,12 +13,37 @@ img {
 body {
   font-family: "Nunito Sans", sans-serif;
   padding: 20px;
+  background-color: #202d36;
+  color: #fff;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
+}
+
+.grid article img {
+  border-radius: 5px 5px 0 0;
+}
+
+.grid .details {
+  background-color: #2b3743;
+  padding: 20px;
+  margin-top: -10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.grid .details h3 {
+  padding-bottom: 10px;
+}
+
+.grid .details h4 {
+  padding-bottom: 5px;
+}
+
+.grid .details h4 span {
+  font-weight: 300;
 }
 
 @media (min-width: 640px) {
